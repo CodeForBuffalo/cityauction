@@ -1,0 +1,2778 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_68873191a62540929d01458c8c97e406 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_68873191a62540929d01458c8c97e406" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_68873191a62540929d01458c8c97e406 = L.map(
+                                  'map_68873191a62540929d01458c8c97e406',
+                                  {center: [42.9166,-78.892],
+                                  zoom: 14,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_91e7a83a26e54a70a5de5d3f00becbb7 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_68873191a62540929d01458c8c97e406);
+        
+    
+            var feature_group_254be1356fac4eb0b68b984824d5e0f9 = L.featureGroup(
+                ).addTo(map_68873191a62540929d01458c8c97e406);
+        
+    
+
+            var marker_d68c81a022d4406091a920ede345605e = L.marker(
+                [42.912904268809314,-78.89646013824498],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_254be1356fac4eb0b68b984824d5e0f9);
+            
+    
+
+                var icon_911512a2a4954e6e9a8e6626db8d382f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d68c81a022d4406091a920ede345605e.setIcon(icon_911512a2a4954e6e9a8e6626db8d382f);
+            
+    
+            var popup_7c6f9709ca6c466ea84dd4af4b59f55f = L.popup({maxWidth: '300'});
+
+            
+                var html_68594ec5af21433d9bcbd9be84b6cd90 = $('<div id="html_68594ec5af21433d9bcbd9be84b6cd90" style="width: 100.0%; height: 100.0%;">Address 140 ALBANY, Property Class  APARTMENT</div>')[0];
+                popup_7c6f9709ca6c466ea84dd4af4b59f55f.setContent(html_68594ec5af21433d9bcbd9be84b6cd90);
+            
+
+            marker_d68c81a022d4406091a920ede345605e.bindPopup(popup_7c6f9709ca6c466ea84dd4af4b59f55f);
+
+            
+        
+    
+            var feature_group_85acc13758fb4310a0ad64244425352c = L.featureGroup(
+                ).addTo(map_68873191a62540929d01458c8c97e406);
+        
+    
+
+            var marker_5f458803c5b04ef78e16e0f966a5cb37 = L.marker(
+                [42.914435591497885,-78.89678117358712],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_85acc13758fb4310a0ad64244425352c);
+            
+    
+
+                var icon_08e1db21cec144078b21b037e3f7034c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5f458803c5b04ef78e16e0f966a5cb37.setIcon(icon_08e1db21cec144078b21b037e3f7034c);
+            
+    
+            var popup_cd0c0613567e47e69c5098e1d03c6e8a = L.popup({maxWidth: '300'});
+
+            
+                var html_dd313d41fb99422a809853bd6ca936ca = $('<div id="html_dd313d41fb99422a809853bd6ca936ca" style="width: 100.0%; height: 100.0%;">Address 19 ARKANSAS, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_cd0c0613567e47e69c5098e1d03c6e8a.setContent(html_dd313d41fb99422a809853bd6ca936ca);
+            
+
+            marker_5f458803c5b04ef78e16e0f966a5cb37.bindPopup(popup_cd0c0613567e47e69c5098e1d03c6e8a);
+
+            
+        
+    
+
+            var marker_2242eafc43b34ab5a0c91961475f4864 = L.marker(
+                [42.91412524026478,-78.89207562510364],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_85acc13758fb4310a0ad64244425352c);
+            
+    
+
+                var icon_a25eaf54da084a8fae246144941d7fc6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2242eafc43b34ab5a0c91961475f4864.setIcon(icon_a25eaf54da084a8fae246144941d7fc6);
+            
+    
+            var popup_b0d0892ca0fe4c338cae73ba252d6984 = L.popup({maxWidth: '300'});
+
+            
+                var html_3b28cf1536ac4f079c9fd8c0369660ce = $('<div id="html_3b28cf1536ac4f079c9fd8c0369660ce" style="width: 100.0%; height: 100.0%;">Address 141 ARKANSAS, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_b0d0892ca0fe4c338cae73ba252d6984.setContent(html_3b28cf1536ac4f079c9fd8c0369660ce);
+            
+
+            marker_2242eafc43b34ab5a0c91961475f4864.bindPopup(popup_b0d0892ca0fe4c338cae73ba252d6984);
+
+            
+        
+    
+
+            var marker_18fa3cac2d2244838a17f6efef9c82fc = L.marker(
+                [42.913702436726886,-78.88706092717639],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_85acc13758fb4310a0ad64244425352c);
+            
+    
+
+                var icon_1239a7ffb1c74de39baa9b8a075e6500 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_18fa3cac2d2244838a17f6efef9c82fc.setIcon(icon_1239a7ffb1c74de39baa9b8a075e6500);
+            
+    
+            var popup_58811bb788674aeb82767bdaaf33ac18 = L.popup({maxWidth: '300'});
+
+            
+                var html_78485190c646403ab2ea0405dbf875ee = $('<div id="html_78485190c646403ab2ea0405dbf875ee" style="width: 100.0%; height: 100.0%;">Address 96 EIGHTEENTH, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_58811bb788674aeb82767bdaaf33ac18.setContent(html_78485190c646403ab2ea0405dbf875ee);
+            
+
+            marker_18fa3cac2d2244838a17f6efef9c82fc.bindPopup(popup_58811bb788674aeb82767bdaaf33ac18);
+
+            
+        
+    
+
+            var marker_b4f3c4925a1c4ef0ad82e34fab483fd0 = L.marker(
+                [42.91872241065155,-78.89797303966287],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_85acc13758fb4310a0ad64244425352c);
+            
+    
+
+                var icon_b4ed1f5998cf4d7899a2a661e29bcb10 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b4f3c4925a1c4ef0ad82e34fab483fd0.setIcon(icon_b4ed1f5998cf4d7899a2a661e29bcb10);
+            
+    
+            var popup_48644630884b42128268e210df8c663e = L.popup({maxWidth: '300'});
+
+            
+                var html_09fed6089f204858b42b222bc7c9137e = $('<div id="html_09fed6089f204858b42b222bc7c9137e" style="width: 100.0%; height: 100.0%;">Address 70 AUBURN, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_48644630884b42128268e210df8c663e.setContent(html_09fed6089f204858b42b222bc7c9137e);
+            
+
+            marker_b4f3c4925a1c4ef0ad82e34fab483fd0.bindPopup(popup_48644630884b42128268e210df8c663e);
+
+            
+        
+    
+
+            var marker_311890e666624d338ee466dfcbf94650 = L.marker(
+                [42.91861796043725,-78.89803432878706],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_85acc13758fb4310a0ad64244425352c);
+            
+    
+
+                var icon_5487691d47a74a5b81ffaa22244a0521 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_311890e666624d338ee466dfcbf94650.setIcon(icon_5487691d47a74a5b81ffaa22244a0521);
+            
+    
+            var popup_725cea3d9114430297730a06acbe022f = L.popup({maxWidth: '300'});
+
+            
+                var html_e2a549b416264e0b8b1d1a75498e7470 = $('<div id="html_e2a549b416264e0b8b1d1a75498e7470" style="width: 100.0%; height: 100.0%;">Address 67 AUBURN, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_725cea3d9114430297730a06acbe022f.setContent(html_e2a549b416264e0b8b1d1a75498e7470);
+            
+
+            marker_311890e666624d338ee466dfcbf94650.bindPopup(popup_725cea3d9114430297730a06acbe022f);
+
+            
+        
+    
+
+            var marker_0159a65238d1406d9a30184a9bf13341 = L.marker(
+                [42.923476089328595,-78.89247915344166],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_85acc13758fb4310a0ad64244425352c);
+            
+    
+
+                var icon_204f8059539e48b2881e24b4f1752b74 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0159a65238d1406d9a30184a9bf13341.setIcon(icon_204f8059539e48b2881e24b4f1752b74);
+            
+    
+            var popup_9faba07767e7435688f6c1d70ef352e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_003123b68bf146f0934aa6939b9ce6f6 = $('<div id="html_003123b68bf146f0934aa6939b9ce6f6" style="width: 100.0%; height: 100.0%;">Address 392 HERKIMER, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_9faba07767e7435688f6c1d70ef352e3.setContent(html_003123b68bf146f0934aa6939b9ce6f6);
+            
+
+            marker_0159a65238d1406d9a30184a9bf13341.bindPopup(popup_9faba07767e7435688f6c1d70ef352e3);
+
+            
+        
+    
+
+            var marker_9ce5c257b6384ef5bef249c43acbf4eb = L.marker(
+                [42.923933661932566,-78.8925395700173],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_85acc13758fb4310a0ad64244425352c);
+            
+    
+
+                var icon_428222e3d7f94e36ad0bddd4c4d24b13 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9ce5c257b6384ef5bef249c43acbf4eb.setIcon(icon_428222e3d7f94e36ad0bddd4c4d24b13);
+            
+    
+            var popup_a20ad64076804d059575e1445d676d48 = L.popup({maxWidth: '300'});
+
+            
+                var html_4db6c61b03dc4d63b204b368e4393c29 = $('<div id="html_4db6c61b03dc4d63b204b368e4393c29" style="width: 100.0%; height: 100.0%;">Address 185 POTOMAC, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_a20ad64076804d059575e1445d676d48.setContent(html_4db6c61b03dc4d63b204b368e4393c29);
+            
+
+            marker_9ce5c257b6384ef5bef249c43acbf4eb.bindPopup(popup_a20ad64076804d059575e1445d676d48);
+
+            
+        
+    
+
+            var marker_fa6dfe018a4d4b4fb1ae7fc81b2efd76 = L.marker(
+                [42.92205484363424,-78.88477020627029],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_85acc13758fb4310a0ad64244425352c);
+            
+    
+
+                var icon_63ffc1d548c3486cb631e43a5dd4fd16 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fa6dfe018a4d4b4fb1ae7fc81b2efd76.setIcon(icon_63ffc1d548c3486cb631e43a5dd4fd16);
+            
+    
+            var popup_c0c96d762b004f5499beedaab79ced5d = L.popup({maxWidth: '300'});
+
+            
+                var html_d81d48ac3edf4b5d9f981ac45526a609 = $('<div id="html_d81d48ac3edf4b5d9f981ac45526a609" style="width: 100.0%; height: 100.0%;">Address 395 DELAVAN WEST, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_c0c96d762b004f5499beedaab79ced5d.setContent(html_d81d48ac3edf4b5d9f981ac45526a609);
+            
+
+            marker_fa6dfe018a4d4b4fb1ae7fc81b2efd76.bindPopup(popup_c0c96d762b004f5499beedaab79ced5d);
+
+            
+        
+    
+
+            var marker_ee04fce34a8b4174a6cd0a292f899401 = L.marker(
+                [42.9120334106121,-78.8894505735463],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_85acc13758fb4310a0ad64244425352c);
+            
+    
+
+                var icon_410c4c2381094caba417da19d590712a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ee04fce34a8b4174a6cd0a292f899401.setIcon(icon_410c4c2381094caba417da19d590712a);
+            
+    
+            var popup_fe068202007f44509f6bd226c20ed59f = L.popup({maxWidth: '300'});
+
+            
+                var html_ade07db604ae49a687246647e27bfa54 = $('<div id="html_ade07db604ae49a687246647e27bfa54" style="width: 100.0%; height: 100.0%;">Address 336 MASSACHUSETTS, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_fe068202007f44509f6bd226c20ed59f.setContent(html_ade07db604ae49a687246647e27bfa54);
+            
+
+            marker_ee04fce34a8b4174a6cd0a292f899401.bindPopup(popup_fe068202007f44509f6bd226c20ed59f);
+
+            
+        
+    
+
+            var marker_2c56b07b51db4a569e991d4ab031f3bf = L.marker(
+                [42.911279816786134,-78.88865668800449],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_85acc13758fb4310a0ad64244425352c);
+            
+    
+
+                var icon_52531c4eb2124ca482d1762397a4d3ec = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2c56b07b51db4a569e991d4ab031f3bf.setIcon(icon_52531c4eb2124ca482d1762397a4d3ec);
+            
+    
+            var popup_e923aacb7451478985193ac2ee14783f = L.popup({maxWidth: '300'});
+
+            
+                var html_40aa138d96154649b2ec4f268c72548a = $('<div id="html_40aa138d96154649b2ec4f268c72548a" style="width: 100.0%; height: 100.0%;">Address 590 UTICA WEST, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_e923aacb7451478985193ac2ee14783f.setContent(html_40aa138d96154649b2ec4f268c72548a);
+            
+
+            marker_2c56b07b51db4a569e991d4ab031f3bf.bindPopup(popup_e923aacb7451478985193ac2ee14783f);
+
+            
+        
+    
+
+            var marker_21eb532858634cb396363e17be88de3a = L.marker(
+                [42.910294612346526,-78.88339394355782],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_85acc13758fb4310a0ad64244425352c);
+            
+    
+
+                var icon_e64d00ad71674d5699caa914226f8b4b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_21eb532858634cb396363e17be88de3a.setIcon(icon_e64d00ad71674d5699caa914226f8b4b);
+            
+    
+            var popup_b2f409f6b82b4051954cd3c8b1d39671 = L.popup({maxWidth: '300'});
+
+            
+                var html_f4b3422ee589455693ab98e14f7529ea = $('<div id="html_f4b3422ee589455693ab98e14f7529ea" style="width: 100.0%; height: 100.0%;">Address 445 VERMONT, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_b2f409f6b82b4051954cd3c8b1d39671.setContent(html_f4b3422ee589455693ab98e14f7529ea);
+            
+
+            marker_21eb532858634cb396363e17be88de3a.bindPopup(popup_b2f409f6b82b4051954cd3c8b1d39671);
+
+            
+        
+    
+
+            var marker_8c2b21a6bb104e22b1b7bd37774d718d = L.marker(
+                [42.9119451808506,-78.89568605713309],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_85acc13758fb4310a0ad64244425352c);
+            
+    
+
+                var icon_57d08791543446a2b7a09cd535eb8279 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8c2b21a6bb104e22b1b7bd37774d718d.setIcon(icon_57d08791543446a2b7a09cd535eb8279);
+            
+    
+            var popup_5164aca4eedf4fc1a87959adc276d000 = L.popup({maxWidth: '300'});
+
+            
+                var html_41e5b57365d34c639f400002bf97db33 = $('<div id="html_41e5b57365d34c639f400002bf97db33" style="width: 100.0%; height: 100.0%;">Address 568 PLYMOUTH, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_5164aca4eedf4fc1a87959adc276d000.setContent(html_41e5b57365d34c639f400002bf97db33);
+            
+
+            marker_8c2b21a6bb104e22b1b7bd37774d718d.bindPopup(popup_5164aca4eedf4fc1a87959adc276d000);
+
+            
+        
+    
+
+            var marker_90e93af44df741318d249e315a50eb92 = L.marker(
+                [42.91602232828856,-78.88751811926538],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_85acc13758fb4310a0ad64244425352c);
+            
+    
+
+                var icon_3c7af22d87e543bf9306dc1f6b9dce00 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_90e93af44df741318d249e315a50eb92.setIcon(icon_3c7af22d87e543bf9306dc1f6b9dce00);
+            
+    
+            var popup_5289f21f08f944569d78b074a06c664c = L.popup({maxWidth: '300'});
+
+            
+                var html_700bba7ac29e4a27bb73bf5ec97adc5c = $('<div id="html_700bba7ac29e4a27bb73bf5ec97adc5c" style="width: 100.0%; height: 100.0%;">Address 81 ARNOLD, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_5289f21f08f944569d78b074a06c664c.setContent(html_700bba7ac29e4a27bb73bf5ec97adc5c);
+            
+
+            marker_90e93af44df741318d249e315a50eb92.bindPopup(popup_5289f21f08f944569d78b074a06c664c);
+
+            
+        
+    
+            var feature_group_39c4fa7d33944931820170d24a90c66b = L.featureGroup(
+                ).addTo(map_68873191a62540929d01458c8c97e406);
+        
+    
+
+            var marker_f5a7c72441f3435dadef9631397e22f0 = L.marker(
+                [42.915374639708574,-78.88426247132199],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_39c4fa7d33944931820170d24a90c66b);
+            
+    
+
+                var icon_8b0500ecafbe4c12a231b675361c6368 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f5a7c72441f3435dadef9631397e22f0.setIcon(icon_8b0500ecafbe4c12a231b675361c6368);
+            
+    
+            var popup_c6b45e34b61741149095f1e6501e27e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_fdef73965f344225a73755020de3442d = $('<div id="html_fdef73965f344225a73755020de3442d" style="width: 100.0%; height: 100.0%;">Address 471 FERRY WEST, Property Class  ONE FAMILY DWELLING</div>')[0];
+                popup_c6b45e34b61741149095f1e6501e27e6.setContent(html_fdef73965f344225a73755020de3442d);
+            
+
+            marker_f5a7c72441f3435dadef9631397e22f0.bindPopup(popup_c6b45e34b61741149095f1e6501e27e6);
+
+            
+        
+    
+
+            var marker_1b6ae86bd649413e8951c6e09beab0d7 = L.marker(
+                [42.92494910925614,-78.8940842359168],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_39c4fa7d33944931820170d24a90c66b);
+            
+    
+
+                var icon_f9fefba17eb54fdb9e48f6497d641fb9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1b6ae86bd649413e8951c6e09beab0d7.setIcon(icon_f9fefba17eb54fdb9e48f6497d641fb9);
+            
+    
+            var popup_a76be10166f04ec4bf85d21e9dad33d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b4c752a7cdb4bd2b56423b45a99685f = $('<div id="html_8b4c752a7cdb4bd2b56423b45a99685f" style="width: 100.0%; height: 100.0%;">Address 16 GARNER, Property Class  ONE FAMILY DWELLING</div>')[0];
+                popup_a76be10166f04ec4bf85d21e9dad33d9.setContent(html_8b4c752a7cdb4bd2b56423b45a99685f);
+            
+
+            marker_1b6ae86bd649413e8951c6e09beab0d7.bindPopup(popup_a76be10166f04ec4bf85d21e9dad33d9);
+
+            
+        
+    
+
+            var marker_a664dcedb5ff43feb1fe01776648ba0f = L.marker(
+                [42.92671790910715,-78.89210571861426],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_39c4fa7d33944931820170d24a90c66b);
+            
+    
+
+                var icon_0e67f5c3cbfb4a6cb989db7d7334e4d4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a664dcedb5ff43feb1fe01776648ba0f.setIcon(icon_0e67f5c3cbfb4a6cb989db7d7334e4d4);
+            
+    
+            var popup_9911a4c907a34c5cae472e90e11a9328 = L.popup({maxWidth: '300'});
+
+            
+                var html_4e71aa3e1b144db58c2e550e9653f0da = $('<div id="html_4e71aa3e1b144db58c2e550e9653f0da" style="width: 100.0%; height: 100.0%;">Address 71 POOLEY, Property Class  ONE FAMILY DWELLING</div>')[0];
+                popup_9911a4c907a34c5cae472e90e11a9328.setContent(html_4e71aa3e1b144db58c2e550e9653f0da);
+            
+
+            marker_a664dcedb5ff43feb1fe01776648ba0f.bindPopup(popup_9911a4c907a34c5cae472e90e11a9328);
+
+            
+        
+    
+
+            var marker_bd67221fbc47400c9e9648b65310603c = L.marker(
+                [42.92400967287078,-78.8946706608567],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_39c4fa7d33944931820170d24a90c66b);
+            
+    
+
+                var icon_e8c5f3804198453ebcc46400df0f7bdf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bd67221fbc47400c9e9648b65310603c.setIcon(icon_e8c5f3804198453ebcc46400df0f7bdf);
+            
+    
+            var popup_1a85e3ce49614e3cb4c009ec273ec3b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_9828a3da48fa4bc4b84f8ab4cafc3814 = $('<div id="html_9828a3da48fa4bc4b84f8ab4cafc3814" style="width: 100.0%; height: 100.0%;">Address 120 POTOMAC, Property Class  ONE FAMILY DWELLING</div>')[0];
+                popup_1a85e3ce49614e3cb4c009ec273ec3b7.setContent(html_9828a3da48fa4bc4b84f8ab4cafc3814);
+            
+
+            marker_bd67221fbc47400c9e9648b65310603c.bindPopup(popup_1a85e3ce49614e3cb4c009ec273ec3b7);
+
+            
+        
+    
+
+            var marker_b246c68d0e98474788e8600065567a3e = L.marker(
+                [42.921382399983955,-78.8876919632133],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_39c4fa7d33944931820170d24a90c66b);
+            
+    
+
+                var icon_0a004ef4e9794d90afae3db2735cc58a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b246c68d0e98474788e8600065567a3e.setIcon(icon_0a004ef4e9794d90afae3db2735cc58a);
+            
+    
+            var popup_ff207989d9f74a7495298cc75a1f8b5c = L.popup({maxWidth: '300'});
+
+            
+                var html_dce384e08cc54122affd9888585e8ce2 = $('<div id="html_dce384e08cc54122affd9888585e8ce2" style="width: 100.0%; height: 100.0%;">Address 217 PARKDALE, Property Class  ONE FAMILY DWELLING</div>')[0];
+                popup_ff207989d9f74a7495298cc75a1f8b5c.setContent(html_dce384e08cc54122affd9888585e8ce2);
+            
+
+            marker_b246c68d0e98474788e8600065567a3e.bindPopup(popup_ff207989d9f74a7495298cc75a1f8b5c);
+
+            
+        
+    
+
+            var marker_43fe50ec4c324143a4c23c69848260a7 = L.marker(
+                [42.92445548291988,-78.88727372696567],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_39c4fa7d33944931820170d24a90c66b);
+            
+    
+
+                var icon_ef3f8579be0c4e3e8706b12948d88bb1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_43fe50ec4c324143a4c23c69848260a7.setIcon(icon_ef3f8579be0c4e3e8706b12948d88bb1);
+            
+    
+            var popup_5a649e765f4243ec8fa4de6d0871229d = L.popup({maxWidth: '300'});
+
+            
+                var html_5b1cd5a95aa94943b485df97fc0a5f1e = $('<div id="html_5b1cd5a95aa94943b485df97fc0a5f1e" style="width: 100.0%; height: 100.0%;">Address 333 PARKDALE, Property Class  ONE FAMILY DWELLING</div>')[0];
+                popup_5a649e765f4243ec8fa4de6d0871229d.setContent(html_5b1cd5a95aa94943b485df97fc0a5f1e);
+            
+
+            marker_43fe50ec4c324143a4c23c69848260a7.bindPopup(popup_5a649e765f4243ec8fa4de6d0871229d);
+
+            
+        
+    
+
+            var marker_7dfdd7de642d4a90b1db4d6d792190fc = L.marker(
+                [42.925516736996585,-78.88590792610026],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_39c4fa7d33944931820170d24a90c66b);
+            
+    
+
+                var icon_a9707891da0343138276a21964ad9398 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7dfdd7de642d4a90b1db4d6d792190fc.setIcon(icon_a9707891da0343138276a21964ad9398);
+            
+    
+            var popup_9cbb0397ea224aea98fcd18d4a175e56 = L.popup({maxWidth: '300'});
+
+            
+                var html_bf1772ae3ee143ff944bc00f2b654bff = $('<div id="html_bf1772ae3ee143ff944bc00f2b654bff" style="width: 100.0%; height: 100.0%;">Address 359 HOYT, Property Class  ONE FAMILY DWELLING</div>')[0];
+                popup_9cbb0397ea224aea98fcd18d4a175e56.setContent(html_bf1772ae3ee143ff944bc00f2b654bff);
+            
+
+            marker_7dfdd7de642d4a90b1db4d6d792190fc.bindPopup(popup_9cbb0397ea224aea98fcd18d4a175e56);
+
+            
+        
+    
+
+            var marker_7f9b5d37e39b48a2a7091209bcc3e2bd = L.marker(
+                [42.925699043021005,-78.88588769677186],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_39c4fa7d33944931820170d24a90c66b);
+            
+    
+
+                var icon_0b608695755a4a618a5a209bcc623ba3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7f9b5d37e39b48a2a7091209bcc3e2bd.setIcon(icon_0b608695755a4a618a5a209bcc623ba3);
+            
+    
+            var popup_b4dba1866332471db2881e57f8fe1908 = L.popup({maxWidth: '300'});
+
+            
+                var html_26e00b36bff6454f8a52f93555dfdc17 = $('<div id="html_26e00b36bff6454f8a52f93555dfdc17" style="width: 100.0%; height: 100.0%;">Address 365 HOYT, Property Class  ONE FAMILY DWELLING</div>')[0];
+                popup_b4dba1866332471db2881e57f8fe1908.setContent(html_26e00b36bff6454f8a52f93555dfdc17);
+            
+
+            marker_7f9b5d37e39b48a2a7091209bcc3e2bd.bindPopup(popup_b4dba1866332471db2881e57f8fe1908);
+
+            
+        
+    
+            var feature_group_c204122a45254eb3bc1e3e3c83060a0b = L.featureGroup(
+                ).addTo(map_68873191a62540929d01458c8c97e406);
+        
+    
+
+            var marker_4b453c85d9ec47eeba28c1c34577097a = L.marker(
+                [42.9074989816381,-78.8877560804126],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_c204122a45254eb3bc1e3e3c83060a0b);
+            
+    
+
+                var icon_16d6afd59b314cee8d5df480a877908a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4b453c85d9ec47eeba28c1c34577097a.setIcon(icon_16d6afd59b314cee8d5df480a877908a);
+            
+    
+            var popup_0c2fc4e8c49d489095dec8d515be9d0f = L.popup({maxWidth: '300'});
+
+            
+                var html_4736a31691724d679b044a1b51b2f2a3 = $('<div id="html_4736a31691724d679b044a1b51b2f2a3" style="width: 100.0%; height: 100.0%;">Address 251 FOURTEENTH, Property Class  RESIDENTIAL LAND WITH SMALL IMPROVEMENTS</div>')[0];
+                popup_0c2fc4e8c49d489095dec8d515be9d0f.setContent(html_4736a31691724d679b044a1b51b2f2a3);
+            
+
+            marker_4b453c85d9ec47eeba28c1c34577097a.bindPopup(popup_0c2fc4e8c49d489095dec8d515be9d0f);
+
+            
+        
+    
+            var feature_group_ce78efc5d32840bcb3b9a03e9662bbc2 = L.featureGroup(
+                ).addTo(map_68873191a62540929d01458c8c97e406);
+        
+    
+
+            var marker_79d30fb9f3c04c6aad272a3687b72770 = L.marker(
+                [42.91495078959036,-78.88805354188239],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_ce78efc5d32840bcb3b9a03e9662bbc2);
+            
+    
+
+                var icon_e614d1559f244bc393f395e7972ba901 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'darkred',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_79d30fb9f3c04c6aad272a3687b72770.setIcon(icon_e614d1559f244bc393f395e7972ba901);
+            
+    
+            var popup_f3720d67bf6f48b9a7d634ae56941aff = L.popup({maxWidth: '300'});
+
+            
+                var html_c409e9c79c0c48e995f0900b409830fe = $('<div id="html_c409e9c79c0c48e995f0900b409830fe" style="width: 100.0%; height: 100.0%;">Address 399 HAMPSHIRE, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_f3720d67bf6f48b9a7d634ae56941aff.setContent(html_c409e9c79c0c48e995f0900b409830fe);
+            
+
+            marker_79d30fb9f3c04c6aad272a3687b72770.bindPopup(popup_f3720d67bf6f48b9a7d634ae56941aff);
+
+            
+        
+    
+
+            var marker_ddaa26ca4a8b4dac891a249c84cd87f2 = L.marker(
+                [42.921979989533845,-78.89091726082516],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_ce78efc5d32840bcb3b9a03e9662bbc2);
+            
+    
+
+                var icon_0938a8041c154f968a6b05b562f4bfa3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'darkred',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ddaa26ca4a8b4dac891a249c84cd87f2.setIcon(icon_0938a8041c154f968a6b05b562f4bfa3);
+            
+    
+            var popup_78846a5c085c499fa2abeb1fa5e1f1f9 = L.popup({maxWidth: '300'});
+
+            
+                var html_2f6877ae2092430b9663ad1c35c3ef74 = $('<div id="html_2f6877ae2092430b9663ad1c35c3ef74" style="width: 100.0%; height: 100.0%;">Address 231 DELAVAN WEST, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_78846a5c085c499fa2abeb1fa5e1f1f9.setContent(html_2f6877ae2092430b9663ad1c35c3ef74);
+            
+
+            marker_ddaa26ca4a8b4dac891a249c84cd87f2.bindPopup(popup_78846a5c085c499fa2abeb1fa5e1f1f9);
+
+            
+        
+    
+
+            var marker_657062aca7a547509976cb43a7137282 = L.marker(
+                [42.928796771654774,-78.8905539615947],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_ce78efc5d32840bcb3b9a03e9662bbc2);
+            
+    
+
+                var icon_072a638b0d2a43e2b70e4cfdcaf3089b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'darkred',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_657062aca7a547509976cb43a7137282.setIcon(icon_072a638b0d2a43e2b70e4cfdcaf3089b);
+            
+    
+            var popup_8ec4a93d4fc4437bafe0928a23534a94 = L.popup({maxWidth: '300'});
+
+            
+                var html_11e169f4e6a3423aa2032882a658be65 = $('<div id="html_11e169f4e6a3423aa2032882a658be65" style="width: 100.0%; height: 100.0%;">Address 38 HAWLEY, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_8ec4a93d4fc4437bafe0928a23534a94.setContent(html_11e169f4e6a3423aa2032882a658be65);
+            
+
+            marker_657062aca7a547509976cb43a7137282.bindPopup(popup_8ec4a93d4fc4437bafe0928a23534a94);
+
+            
+        
+    
+
+            var marker_92e2a8e37f1f40f8a17d80fc4b582e42 = L.marker(
+                [42.92292460401021,-78.89420005504098],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_ce78efc5d32840bcb3b9a03e9662bbc2);
+            
+    
+
+                var icon_c9b3f49796c540faa42027d6cf621582 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'darkred',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_92e2a8e37f1f40f8a17d80fc4b582e42.setIcon(icon_c9b3f49796c540faa42027d6cf621582);
+            
+    
+            var popup_4ec595fe50c94c35b6eb03831f89b287 = L.popup({maxWidth: '300'});
+
+            
+                var html_f10d08d8c0df4229a4db8fc50a0afdca = $('<div id="html_f10d08d8c0df4229a4db8fc50a0afdca" style="width: 100.0%; height: 100.0%;">Address 29 PERKINS, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_4ec595fe50c94c35b6eb03831f89b287.setContent(html_f10d08d8c0df4229a4db8fc50a0afdca);
+            
+
+            marker_92e2a8e37f1f40f8a17d80fc4b582e42.bindPopup(popup_4ec595fe50c94c35b6eb03831f89b287);
+
+            
+        
+    
+
+            var marker_060e93222a7f4e409ef81d9484b18ffa = L.marker(
+                [42.91900293468723,-78.89701445352321],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_ce78efc5d32840bcb3b9a03e9662bbc2);
+            
+    
+
+                var icon_2c3438a01b424e89b8ea7b54b73d0c2b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'darkred',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_060e93222a7f4e409ef81d9484b18ffa.setIcon(icon_2c3438a01b424e89b8ea7b54b73d0c2b);
+            
+    
+            var popup_94ea267f5b9e4e5191a799eb31ca720e = L.popup({maxWidth: '300'});
+
+            
+                var html_86da9975ff644537a857fdce3a9c2594 = $('<div id="html_86da9975ff644537a857fdce3a9c2594" style="width: 100.0%; height: 100.0%;">Address 1056 WEST, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_94ea267f5b9e4e5191a799eb31ca720e.setContent(html_86da9975ff644537a857fdce3a9c2594);
+            
+
+            marker_060e93222a7f4e409ef81d9484b18ffa.bindPopup(popup_94ea267f5b9e4e5191a799eb31ca720e);
+
+            
+        
+    
+
+            var marker_5249224cef1c42dfa35722969aca8bf8 = L.marker(
+                [42.906431241343604,-78.89101623390302],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_ce78efc5d32840bcb3b9a03e9662bbc2);
+            
+    
+
+                var icon_7d83ca4d57c44d88acd8feb5f7b186fe = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'darkred',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5249224cef1c42dfa35722969aca8bf8.setIcon(icon_7d83ca4d57c44d88acd8feb5f7b186fe);
+            
+    
+            var popup_7fcc5eba75bc4b06a8220d3c2b93c94f = L.popup({maxWidth: '300'});
+
+            
+                var html_bbdf4860fefc4c5a9800023e07a16179 = $('<div id="html_bbdf4860fefc4c5a9800023e07a16179" style="width: 100.0%; height: 100.0%;">Address 199 VERMONT, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_7fcc5eba75bc4b06a8220d3c2b93c94f.setContent(html_bbdf4860fefc4c5a9800023e07a16179);
+            
+
+            marker_5249224cef1c42dfa35722969aca8bf8.bindPopup(popup_7fcc5eba75bc4b06a8220d3c2b93c94f);
+
+            
+        
+    
+            var feature_group_73fae67143d34a0cbbc64421b39775bb = L.featureGroup(
+                ).addTo(map_68873191a62540929d01458c8c97e406);
+        
+    
+
+            var marker_5efc9efd03fc4d9cb71c434c89fd707c = L.marker(
+                [42.910900806752785,-78.89948550571556],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_73fae67143d34a0cbbc64421b39775bb);
+            
+    
+
+                var icon_7e0b41c0c9e7462584458fbc7b097a1c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'lightred',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5efc9efd03fc4d9cb71c434c89fd707c.setIcon(icon_7e0b41c0c9e7462584458fbc7b097a1c);
+            
+    
+            var popup_c02188bf53644e7da2c41015e97d6c9c = L.popup({maxWidth: '300'});
+
+            
+                var html_149bd498ac7243edbb20a78b7c96ea26 = $('<div id="html_149bd498ac7243edbb20a78b7c96ea26" style="width: 100.0%; height: 100.0%;">Address 949 PROSPECT, Property Class  COMMERCIAL VACANT LAND</div>')[0];
+                popup_c02188bf53644e7da2c41015e97d6c9c.setContent(html_149bd498ac7243edbb20a78b7c96ea26);
+            
+
+            marker_5efc9efd03fc4d9cb71c434c89fd707c.bindPopup(popup_c02188bf53644e7da2c41015e97d6c9c);
+
+            
+        
+    
+            var feature_group_021d2f4838b048d380ead52fe8e4d769 = L.featureGroup(
+                ).addTo(map_68873191a62540929d01458c8c97e406);
+        
+    
+
+            var marker_8a8ecda26a4c4cf493527d307cb01837 = L.marker(
+                [42.92212334741801,-78.89142871122729],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_2cb4ca4762d54bbf967e1e8affd375af = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8a8ecda26a4c4cf493527d307cb01837.setIcon(icon_2cb4ca4762d54bbf967e1e8affd375af);
+            
+    
+            var popup_ec296b7d5aaf4df3b6e0b63f6e89fcef = L.popup({maxWidth: '300'});
+
+            
+                var html_1b8e3772e6b84a78a0698e4e40a488a2 = $('<div id="html_1b8e3772e6b84a78a0698e4e40a488a2" style="width: 100.0%; height: 100.0%;">Address 160 CONGRESS, Property Class  COMMERCIAL VACANT LAND</div>')[0];
+                popup_ec296b7d5aaf4df3b6e0b63f6e89fcef.setContent(html_1b8e3772e6b84a78a0698e4e40a488a2);
+            
+
+            marker_8a8ecda26a4c4cf493527d307cb01837.bindPopup(popup_ec296b7d5aaf4df3b6e0b63f6e89fcef);
+
+            
+        
+    
+
+            var marker_7ef5c8563bbb4beb932d22252e81ce2f = L.marker(
+                [42.92200126681464,-78.88956222187525],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_7eba9c363a61479282572b6bd0c5032f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7ef5c8563bbb4beb932d22252e81ce2f.setIcon(icon_7eba9c363a61479282572b6bd0c5032f);
+            
+    
+            var popup_a0db31772af840609b2b53d7ca5f8810 = L.popup({maxWidth: '300'});
+
+            
+                var html_849a2ef13f6740c18ffeb1240344b95e = $('<div id="html_849a2ef13f6740c18ffeb1240344b95e" style="width: 100.0%; height: 100.0%;">Address 265 DELAVAN WEST, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_a0db31772af840609b2b53d7ca5f8810.setContent(html_849a2ef13f6740c18ffeb1240344b95e);
+            
+
+            marker_7ef5c8563bbb4beb932d22252e81ce2f.bindPopup(popup_a0db31772af840609b2b53d7ca5f8810);
+
+            
+        
+    
+
+            var marker_294f51bfd0b84142827fe07d915eba59 = L.marker(
+                [42.92196488134693,-78.89214636139906],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_ccae76a201814727b6ed274a851d9c24 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_294f51bfd0b84142827fe07d915eba59.setIcon(icon_ccae76a201814727b6ed274a851d9c24);
+            
+    
+            var popup_6b65c44906ce40b096dfbc776d6e3899 = L.popup({maxWidth: '300'});
+
+            
+                var html_967de2a26b4b4eb98c18005d913fd491 = $('<div id="html_967de2a26b4b4eb98c18005d913fd491" style="width: 100.0%; height: 100.0%;">Address 199 DELAVAN WEST, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_6b65c44906ce40b096dfbc776d6e3899.setContent(html_967de2a26b4b4eb98c18005d913fd491);
+            
+
+            marker_294f51bfd0b84142827fe07d915eba59.bindPopup(popup_6b65c44906ce40b096dfbc776d6e3899);
+
+            
+        
+    
+
+            var marker_5f8cd41436ee4922899032c4c12f4586 = L.marker(
+                [42.917569963365715,-78.89303465240198],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_1af74602e5f841afb9c342515f2f1e78 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5f8cd41436ee4922899032c4c12f4586.setIcon(icon_1af74602e5f841afb9c342515f2f1e78);
+            
+    
+            var popup_4d9fc67290fd41d2aaf09649bd73208f = L.popup({maxWidth: '300'});
+
+            
+                var html_89a7ea7e01264f96a5dfbaa0751e964b = $('<div id="html_89a7ea7e01264f96a5dfbaa0751e964b" style="width: 100.0%; height: 100.0%;">Address 176 HERKIMER, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_4d9fc67290fd41d2aaf09649bd73208f.setContent(html_89a7ea7e01264f96a5dfbaa0751e964b);
+            
+
+            marker_5f8cd41436ee4922899032c4c12f4586.bindPopup(popup_4d9fc67290fd41d2aaf09649bd73208f);
+
+            
+        
+    
+
+            var marker_aee768705a4a4745b78d7f8b7b85927b = L.marker(
+                [42.917512267689844,-78.8930415224875],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_eb127b11692c48048b87457f904bed41 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_aee768705a4a4745b78d7f8b7b85927b.setIcon(icon_eb127b11692c48048b87457f904bed41);
+            
+    
+            var popup_665990e07ae34851aa3def0ffa9d9fa8 = L.popup({maxWidth: '300'});
+
+            
+                var html_cb9c122d191e4e0c9ae2dff9358ea47f = $('<div id="html_cb9c122d191e4e0c9ae2dff9358ea47f" style="width: 100.0%; height: 100.0%;">Address 174 HERKIMER, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_665990e07ae34851aa3def0ffa9d9fa8.setContent(html_cb9c122d191e4e0c9ae2dff9358ea47f);
+            
+
+            marker_aee768705a4a4745b78d7f8b7b85927b.bindPopup(popup_665990e07ae34851aa3def0ffa9d9fa8);
+
+            
+        
+    
+
+            var marker_1eb55f81049f45cc85cc826108281ae9 = L.marker(
+                [42.9163730198483,-78.88811886563137],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_6c87a38c690649269126ea3143325eef = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1eb55f81049f45cc85cc826108281ae9.setIcon(icon_6c87a38c690649269126ea3143325eef);
+            
+    
+            var popup_de9ad61ea9e8465b8d6e1cba80c11dea = L.popup({maxWidth: '300'});
+
+            
+                var html_7f8c9f30eb58401f803a0d592e4f910a = $('<div id="html_7f8c9f30eb58401f803a0d592e4f910a" style="width: 100.0%; height: 100.0%;">Address 33 PARKDALE, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_de9ad61ea9e8465b8d6e1cba80c11dea.setContent(html_7f8c9f30eb58401f803a0d592e4f910a);
+            
+
+            marker_1eb55f81049f45cc85cc826108281ae9.bindPopup(popup_de9ad61ea9e8465b8d6e1cba80c11dea);
+
+            
+        
+    
+
+            var marker_0fbcf338a43b4ed78dfcaffac76a7fb5 = L.marker(
+                [42.91394305499618,-78.8871050358977],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_ea1256478c3741629801d7f0651dc262 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0fbcf338a43b4ed78dfcaffac76a7fb5.setIcon(icon_ea1256478c3741629801d7f0651dc262);
+            
+    
+            var popup_8333dbd6f6c441efb80d0f02618c61e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_ae38a09068384dd0a99928f904fc5fc4 = $('<div id="html_ae38a09068384dd0a99928f904fc5fc4" style="width: 100.0%; height: 100.0%;">Address 111 EIGHTEENTH, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_8333dbd6f6c441efb80d0f02618c61e6.setContent(html_ae38a09068384dd0a99928f904fc5fc4);
+            
+
+            marker_0fbcf338a43b4ed78dfcaffac76a7fb5.bindPopup(popup_8333dbd6f6c441efb80d0f02618c61e6);
+
+            
+        
+    
+
+            var marker_db568daf6e4f40f6b6c1a0316b57d938 = L.marker(
+                [42.914080321800775,-78.88723362242564],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_0da73241af2a4384ad7e83df3821f4ff = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_db568daf6e4f40f6b6c1a0316b57d938.setIcon(icon_0da73241af2a4384ad7e83df3821f4ff);
+            
+    
+            var popup_f0ed862248ec48cfb82f247391e9c147 = L.popup({maxWidth: '300'});
+
+            
+                var html_1a0eaddb20864474a2968c936e0d8899 = $('<div id="html_1a0eaddb20864474a2968c936e0d8899" style="width: 100.0%; height: 100.0%;">Address 123 EIGHTEENTH, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_f0ed862248ec48cfb82f247391e9c147.setContent(html_1a0eaddb20864474a2968c936e0d8899);
+            
+
+            marker_db568daf6e4f40f6b6c1a0316b57d938.bindPopup(popup_f0ed862248ec48cfb82f247391e9c147);
+
+            
+        
+    
+
+            var marker_d23e471263794ceabbd6932b212af2be = L.marker(
+                [42.9144025944037,-78.88516434379059],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_6d727123c7a64091867edc14cdeb4e6c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d23e471263794ceabbd6932b212af2be.setIcon(icon_6d727123c7a64091867edc14cdeb4e6c);
+            
+    
+            var popup_cf421f6fa338400aad9f32c094d21c35 = L.popup({maxWidth: '300'});
+
+            
+                var html_15f922dec4bb40e99b9a1f0242b7af50 = $('<div id="html_15f922dec4bb40e99b9a1f0242b7af50" style="width: 100.0%; height: 100.0%;">Address 129 CHENANGO, Property Class  THREE FAMILY DWELLING</div>')[0];
+                popup_cf421f6fa338400aad9f32c094d21c35.setContent(html_15f922dec4bb40e99b9a1f0242b7af50);
+            
+
+            marker_d23e471263794ceabbd6932b212af2be.bindPopup(popup_cf421f6fa338400aad9f32c094d21c35);
+
+            
+        
+    
+
+            var marker_09ba4e0f17b64d0abbe608759e5f8854 = L.marker(
+                [42.914456912284216,-78.88521528458837],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_41681b837be04ba8ab00d8ae16f36e01 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_09ba4e0f17b64d0abbe608759e5f8854.setIcon(icon_41681b837be04ba8ab00d8ae16f36e01);
+            
+    
+            var popup_4cfe716d39bd4e13b2fef88e6cf44200 = L.popup({maxWidth: '300'});
+
+            
+                var html_f6ab7ab406884107924f5068c40f427d = $('<div id="html_f6ab7ab406884107924f5068c40f427d" style="width: 100.0%; height: 100.0%;">Address 133 CHENANGO, Property Class  RESIDENTIAL LAND WITH SMALL IMPROVEMENTS</div>')[0];
+                popup_4cfe716d39bd4e13b2fef88e6cf44200.setContent(html_f6ab7ab406884107924f5068c40f427d);
+            
+
+            marker_09ba4e0f17b64d0abbe608759e5f8854.bindPopup(popup_4cfe716d39bd4e13b2fef88e6cf44200);
+
+            
+        
+    
+
+            var marker_2024561fbf6742498f71ed35d4b9113e = L.marker(
+                [42.91535095710048,-78.8851884573973],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_721bb2f1494b4ea981c5a602169d57ec = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2024561fbf6742498f71ed35d4b9113e.setIcon(icon_721bb2f1494b4ea981c5a602169d57ec);
+            
+    
+            var popup_1f0b3589b10b44abb53e7eb43e62db9a = L.popup({maxWidth: '300'});
+
+            
+                var html_f6fc4a5b9bb54d04b40ded6e55cc842f = $('<div id="html_f6fc4a5b9bb54d04b40ded6e55cc842f" style="width: 100.0%; height: 100.0%;">Address 445 FERRY WEST, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_1f0b3589b10b44abb53e7eb43e62db9a.setContent(html_f6fc4a5b9bb54d04b40ded6e55cc842f);
+            
+
+            marker_2024561fbf6742498f71ed35d4b9113e.bindPopup(popup_1f0b3589b10b44abb53e7eb43e62db9a);
+
+            
+        
+    
+
+            var marker_b14bc5460bd94beca9522356677b98d3 = L.marker(
+                [42.91396692570832,-78.88565330894862],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_c31fd3fbac93475cafac7d9725b3ecf1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b14bc5460bd94beca9522356677b98d3.setIcon(icon_c31fd3fbac93475cafac7d9725b3ecf1);
+            
+    
+            var popup_d3ad2a8116bd4d3dbfc19d471fe4120d = L.popup({maxWidth: '300'});
+
+            
+                var html_9a189a81f30344fa916eeceafa6d4f40 = $('<div id="html_9a189a81f30344fa916eeceafa6d4f40" style="width: 100.0%; height: 100.0%;">Address 460 MASSACHUSETTS, Property Class  APARTMENT</div>')[0];
+                popup_d3ad2a8116bd4d3dbfc19d471fe4120d.setContent(html_9a189a81f30344fa916eeceafa6d4f40);
+            
+
+            marker_b14bc5460bd94beca9522356677b98d3.bindPopup(popup_d3ad2a8116bd4d3dbfc19d471fe4120d);
+
+            
+        
+    
+
+            var marker_ffd12197557c4c5da1cf6d8eb954cf9d = L.marker(
+                [42.91390764140094,-78.88576901128872],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_ebf5c16303a94b21ba9e5abad223099e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ffd12197557c4c5da1cf6d8eb954cf9d.setIcon(icon_ebf5c16303a94b21ba9e5abad223099e);
+            
+    
+            var popup_1587d0d959d74bbf8a8fd833e51375d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_61f963f773ec4d74bb7317f0c4d016fe = $('<div id="html_61f963f773ec4d74bb7317f0c4d016fe" style="width: 100.0%; height: 100.0%;">Address 456 MASSACHUSETTS, Property Class  THREE FAMILY DWELLING</div>')[0];
+                popup_1587d0d959d74bbf8a8fd833e51375d1.setContent(html_61f963f773ec4d74bb7317f0c4d016fe);
+            
+
+            marker_ffd12197557c4c5da1cf6d8eb954cf9d.bindPopup(popup_1587d0d959d74bbf8a8fd833e51375d1);
+
+            
+        
+    
+
+            var marker_c0ff9c1a32904f88a277bebee341282a = L.marker(
+                [42.91160472091443,-78.89485121958309],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_83ac21bf8fb941bc8600b91df227ba28 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c0ff9c1a32904f88a277bebee341282a.setIcon(icon_83ac21bf8fb941bc8600b91df227ba28);
+            
+    
+            var popup_c000e139b6bf4056b733e0acd798588c = L.popup({maxWidth: '300'});
+
+            
+                var html_f7f7fc4150d44a2d8d4b779e26cde71e = $('<div id="html_f7f7fc4150d44a2d8d4b779e26cde71e" style="width: 100.0%; height: 100.0%;">Address 174 HAMPSHIRE, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_c000e139b6bf4056b733e0acd798588c.setContent(html_f7f7fc4150d44a2d8d4b779e26cde71e);
+            
+
+            marker_c0ff9c1a32904f88a277bebee341282a.bindPopup(popup_c000e139b6bf4056b733e0acd798588c);
+
+            
+        
+    
+
+            var marker_4a0dafbe8ac148f8ab9c2fc5ef4a3256 = L.marker(
+                [42.914073452235314,-78.89123467200689],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_f9dd12f19b9a471e986daf6f3eeb04ad = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4a0dafbe8ac148f8ab9c2fc5ef4a3256.setIcon(icon_f9dd12f19b9a471e986daf6f3eeb04ad);
+            
+    
+            var popup_74ae5a6b6a7542d09562811963e95998 = L.popup({maxWidth: '300'});
+
+            
+                var html_09dc978744064526b1f68f7695be8228 = $('<div id="html_09dc978744064526b1f68f7695be8228" style="width: 100.0%; height: 100.0%;">Address 169 ARKANSAS, Property Class  ONE FAMILY DWELLING</div>')[0];
+                popup_74ae5a6b6a7542d09562811963e95998.setContent(html_09dc978744064526b1f68f7695be8228);
+            
+
+            marker_4a0dafbe8ac148f8ab9c2fc5ef4a3256.bindPopup(popup_74ae5a6b6a7542d09562811963e95998);
+
+            
+        
+    
+
+            var marker_e782e4bceadf41d883d0a196c419664f = L.marker(
+                [42.91359590706253,-78.89095860008331],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_8ecb588829cd4faf9e1bad6384dfa9f2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e782e4bceadf41d883d0a196c419664f.setIcon(icon_8ecb588829cd4faf9e1bad6384dfa9f2);
+            
+    
+            var popup_af2d2cf60b9441a18118ccb07cbc7132 = L.popup({maxWidth: '300'});
+
+            
+                var html_0bd5d9524bac49b8bcaceb9a0961d2a8 = $('<div id="html_0bd5d9524bac49b8bcaceb9a0961d2a8" style="width: 100.0%; height: 100.0%;">Address 298 HAMPSHIRE, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_af2d2cf60b9441a18118ccb07cbc7132.setContent(html_0bd5d9524bac49b8bcaceb9a0961d2a8);
+            
+
+            marker_e782e4bceadf41d883d0a196c419664f.bindPopup(popup_af2d2cf60b9441a18118ccb07cbc7132);
+
+            
+        
+    
+
+            var marker_9da2d173b1204dba829a343dda3ff68f = L.marker(
+                [42.91373336162157,-78.88802247648815],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_ddee8d0e51374a518382fd3836c92e4b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9da2d173b1204dba829a343dda3ff68f.setIcon(icon_ddee8d0e51374a518382fd3836c92e4b);
+            
+    
+            var popup_fcbfcfd15dd1438fa44be00ba75d86d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_c8074714101a48689eabc9feab6e89f9 = $('<div id="html_c8074714101a48689eabc9feab6e89f9" style="width: 100.0%; height: 100.0%;">Address 44 WINTER, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_fcbfcfd15dd1438fa44be00ba75d86d1.setContent(html_c8074714101a48689eabc9feab6e89f9);
+            
+
+            marker_9da2d173b1204dba829a343dda3ff68f.bindPopup(popup_fcbfcfd15dd1438fa44be00ba75d86d1);
+
+            
+        
+    
+
+            var marker_1fe873d00e3f4392ad075fdedd844317 = L.marker(
+                [42.91370231147784,-78.88799255061629],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_c092740038864159b4fc1dbc4ca02077 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1fe873d00e3f4392ad075fdedd844317.setIcon(icon_c092740038864159b4fc1dbc4ca02077);
+            
+    
+            var popup_cab5895d74eb44d28d0672618976c106 = L.popup({maxWidth: '300'});
+
+            
+                var html_16826c3b414d4ff4a77b792166df7a60 = $('<div id="html_16826c3b414d4ff4a77b792166df7a60" style="width: 100.0%; height: 100.0%;">Address 42 WINTER, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_cab5895d74eb44d28d0672618976c106.setContent(html_16826c3b414d4ff4a77b792166df7a60);
+            
+
+            marker_1fe873d00e3f4392ad075fdedd844317.bindPopup(popup_cab5895d74eb44d28d0672618976c106);
+
+            
+        
+    
+
+            var marker_07f4bc2eda6a47b8b0d9315d67da9bfd = L.marker(
+                [42.913671742836144,-78.88796288552933],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_2147d498eaba430eb5e7ed57e970687e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_07f4bc2eda6a47b8b0d9315d67da9bfd.setIcon(icon_2147d498eaba430eb5e7ed57e970687e);
+            
+    
+            var popup_c04f44152434424c8487f3bce5a925a5 = L.popup({maxWidth: '300'});
+
+            
+                var html_c8abb347d25d4ca286c01190500f4648 = $('<div id="html_c8abb347d25d4ca286c01190500f4648" style="width: 100.0%; height: 100.0%;">Address 40 WINTER, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_c04f44152434424c8487f3bce5a925a5.setContent(html_c8abb347d25d4ca286c01190500f4648);
+            
+
+            marker_07f4bc2eda6a47b8b0d9315d67da9bfd.bindPopup(popup_c04f44152434424c8487f3bce5a925a5);
+
+            
+        
+    
+
+            var marker_583514626ce14ae3b426f24f26c34907 = L.marker(
+                [42.913304918516225,-78.88760690677618],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_664be3a9c8cd4497873abd5706c75038 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_583514626ce14ae3b426f24f26c34907.setIcon(icon_664be3a9c8cd4497873abd5706c75038);
+            
+    
+            var popup_c8f9b27ebca7476cbb7f28a19d2dcf44 = L.popup({maxWidth: '300'});
+
+            
+                var html_174816cacc694f50a9a6695ad1508784 = $('<div id="html_174816cacc694f50a9a6695ad1508784" style="width: 100.0%; height: 100.0%;">Address 16 WINTER, Property Class  ONE FAMILY DWELLING</div>')[0];
+                popup_c8f9b27ebca7476cbb7f28a19d2dcf44.setContent(html_174816cacc694f50a9a6695ad1508784);
+            
+
+            marker_583514626ce14ae3b426f24f26c34907.bindPopup(popup_c8f9b27ebca7476cbb7f28a19d2dcf44);
+
+            
+        
+    
+
+            var marker_341adbc71e3741f0b9a934ebfc41192a = L.marker(
+                [42.913213212257574,-78.88751791274862],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_4bacf8b93cef4c8f97891b20153940a6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_341adbc71e3741f0b9a934ebfc41192a.setIcon(icon_4bacf8b93cef4c8f97891b20153940a6);
+            
+    
+            var popup_7637bbb7e5614f7b98ddfbbcea0b16a7 = L.popup({maxWidth: '300'});
+
+            
+                var html_3f9f8a098a8d46dbbf8701a7b7a39aa0 = $('<div id="html_3f9f8a098a8d46dbbf8701a7b7a39aa0" style="width: 100.0%; height: 100.0%;">Address 10 WINTER, Property Class  ONE FAMILY DWELLING</div>')[0];
+                popup_7637bbb7e5614f7b98ddfbbcea0b16a7.setContent(html_3f9f8a098a8d46dbbf8701a7b7a39aa0);
+            
+
+            marker_341adbc71e3741f0b9a934ebfc41192a.bindPopup(popup_7637bbb7e5614f7b98ddfbbcea0b16a7);
+
+            
+        
+    
+
+            var marker_0213781e12a24d198cee6788701165e0 = L.marker(
+                [42.913011694629,-78.88755273992614],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_b3e66d90ac19416d9ddd4b6db8217049 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0213781e12a24d198cee6788701165e0.setIcon(icon_b3e66d90ac19416d9ddd4b6db8217049);
+            
+    
+            var popup_bd796c4122094c80accee1912389feac = L.popup({maxWidth: '300'});
+
+            
+                var html_8d202577824940c2a90cc2d3ffab22ae = $('<div id="html_8d202577824940c2a90cc2d3ffab22ae" style="width: 100.0%; height: 100.0%;">Address 398 MASSACHUSETTS, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_bd796c4122094c80accee1912389feac.setContent(html_8d202577824940c2a90cc2d3ffab22ae);
+            
+
+            marker_0213781e12a24d198cee6788701165e0.bindPopup(popup_bd796c4122094c80accee1912389feac);
+
+            
+        
+    
+
+            var marker_11807a8b87d24144aea4befdcfd629ba = L.marker(
+                [42.91289194016171,-78.88952135799981],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_f41a78225afc4a21a1925f37275ea0e6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_11807a8b87d24144aea4befdcfd629ba.setIcon(icon_f41a78225afc4a21a1925f37275ea0e6);
+            
+    
+            var popup_546a08938b5042fba56fbc293af81092 = L.popup({maxWidth: '300'});
+
+            
+                var html_81b2a407534d49fd87dfbe5e195c064a = $('<div id="html_81b2a407534d49fd87dfbe5e195c064a" style="width: 100.0%; height: 100.0%;">Address 41 LAWRENCE, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_546a08938b5042fba56fbc293af81092.setContent(html_81b2a407534d49fd87dfbe5e195c064a);
+            
+
+            marker_11807a8b87d24144aea4befdcfd629ba.bindPopup(popup_546a08938b5042fba56fbc293af81092);
+
+            
+        
+    
+
+            var marker_b9255155783d43daaeb2af2d1e2fc19c = L.marker(
+                [42.91292192420117,-78.88954977031867],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_657e017931934abe86884493b8ba21c1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b9255155783d43daaeb2af2d1e2fc19c.setIcon(icon_657e017931934abe86884493b8ba21c1);
+            
+    
+            var popup_74b2497d45574209a834183631e90fc3 = L.popup({maxWidth: '300'});
+
+            
+                var html_11bf7c8d734d48bc93f7df5c9f0d936f = $('<div id="html_11bf7c8d734d48bc93f7df5c9f0d936f" style="width: 100.0%; height: 100.0%;">Address 43 LAWRENCE, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_74b2497d45574209a834183631e90fc3.setContent(html_11bf7c8d734d48bc93f7df5c9f0d936f);
+            
+
+            marker_b9255155783d43daaeb2af2d1e2fc19c.bindPopup(popup_74b2497d45574209a834183631e90fc3);
+
+            
+        
+    
+
+            var marker_d4533299b3a84ed280ce90085a5bef79 = L.marker(
+                [42.912011408315095,-78.88923312516177],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_9708b10db64a4908b6d6d3310728d005 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d4533299b3a84ed280ce90085a5bef79.setIcon(icon_9708b10db64a4908b6d6d3310728d005);
+            
+    
+            var popup_0f9e16b9c7ef407d8fb7c43bc63490b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_d1655710f431434eb167bac40965f9c6 = $('<div id="html_d1655710f431434eb167bac40965f9c6" style="width: 100.0%; height: 100.0%;">Address 335 MASSACHUSETTS, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_0f9e16b9c7ef407d8fb7c43bc63490b5.setContent(html_d1655710f431434eb167bac40965f9c6);
+            
+
+            marker_d4533299b3a84ed280ce90085a5bef79.bindPopup(popup_0f9e16b9c7ef407d8fb7c43bc63490b5);
+
+            
+        
+    
+
+            var marker_a12c8f8d937d40dbaed009d5ab5912eb = L.marker(
+                [42.913343449513945,-78.8911909037311],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_d3f936d1302a4346ad4f627df38458a8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a12c8f8d937d40dbaed009d5ab5912eb.setIcon(icon_d3f936d1302a4346ad4f627df38458a8);
+            
+    
+            var popup_5061e9084f1c4cfc990d0440cf8dcc2a = L.popup({maxWidth: '300'});
+
+            
+                var html_8d795b867b884a6f8ad829d793fde185 = $('<div id="html_8d795b867b884a6f8ad829d793fde185" style="width: 100.0%; height: 100.0%;">Address 291 HAMPSHIRE, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_5061e9084f1c4cfc990d0440cf8dcc2a.setContent(html_8d795b867b884a6f8ad829d793fde185);
+            
+
+            marker_a12c8f8d937d40dbaed009d5ab5912eb.bindPopup(popup_5061e9084f1c4cfc990d0440cf8dcc2a);
+
+            
+        
+    
+
+            var marker_9e7ea72bfe374091a09dacc85fb4a92a = L.marker(
+                [42.91302535682353,-78.8898297490072],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_a13135533fbb4a3e9f753dd6715fcc9b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9e7ea72bfe374091a09dacc85fb4a92a.setIcon(icon_a13135533fbb4a3e9f753dd6715fcc9b);
+            
+    
+            var popup_33476ad65d074605b92f51e9a58ad197 = L.popup({maxWidth: '300'});
+
+            
+                var html_f872722d53e148899da77a361074c710 = $('<div id="html_f872722d53e148899da77a361074c710" style="width: 100.0%; height: 100.0%;">Address 54 LAWRENCE, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_33476ad65d074605b92f51e9a58ad197.setContent(html_f872722d53e148899da77a361074c710);
+            
+
+            marker_9e7ea72bfe374091a09dacc85fb4a92a.bindPopup(popup_33476ad65d074605b92f51e9a58ad197);
+
+            
+        
+    
+
+            var marker_e69a218790be4d188a4895fa6f0dc198 = L.marker(
+                [42.91377214257379,-78.88712622464601],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_3bb23fe1cbb8431599a57603bed3362f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e69a218790be4d188a4895fa6f0dc198.setIcon(icon_3bb23fe1cbb8431599a57603bed3362f);
+            
+    
+            var popup_e185d2117ca04f609160b142d4bf4771 = L.popup({maxWidth: '300'});
+
+            
+                var html_15d7034e573b4743ae8f3501c1b521c8 = $('<div id="html_15d7034e573b4743ae8f3501c1b521c8" style="width: 100.0%; height: 100.0%;">Address 102 EIGHTEENTH, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_e185d2117ca04f609160b142d4bf4771.setContent(html_15d7034e573b4743ae8f3501c1b521c8);
+            
+
+            marker_e69a218790be4d188a4895fa6f0dc198.bindPopup(popup_e185d2117ca04f609160b142d4bf4771);
+
+            
+        
+    
+
+            var marker_7a551f73eb3041e0838e0562daf6a638 = L.marker(
+                [42.91322723135471,-78.88712158370815],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_53a5972ae73e49259a2b86a2f16f4746 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7a551f73eb3041e0838e0562daf6a638.setIcon(icon_53a5972ae73e49259a2b86a2f16f4746);
+            
+    
+            var popup_c31e8dc078a2409cbbe71b102ca9b3f0 = L.popup({maxWidth: '300'});
+
+            
+                var html_cce5e7ac41c54fcd9374ba3a817a485f = $('<div id="html_cce5e7ac41c54fcd9374ba3a817a485f" style="width: 100.0%; height: 100.0%;">Address 412 MASSACHUSETTS, Property Class  THREE FAMILY DWELLING</div>')[0];
+                popup_c31e8dc078a2409cbbe71b102ca9b3f0.setContent(html_cce5e7ac41c54fcd9374ba3a817a485f);
+            
+
+            marker_7a551f73eb3041e0838e0562daf6a638.bindPopup(popup_c31e8dc078a2409cbbe71b102ca9b3f0);
+
+            
+        
+    
+
+            var marker_48ec60f39af74cf8aa49f0fa9448acf2 = L.marker(
+                [42.91378351425097,-78.88788793903989],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_0df4aa9804af4d70b1f05ab56c86f8c5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_48ec60f39af74cf8aa49f0fa9448acf2.setIcon(icon_0df4aa9804af4d70b1f05ab56c86f8c5);
+            
+    
+            var popup_030039e5318348828e2041ed646857a5 = L.popup({maxWidth: '300'});
+
+            
+                var html_748f54e687394e2bae84a719375332c8 = $('<div id="html_748f54e687394e2bae84a719375332c8" style="width: 100.0%; height: 100.0%;">Address 43 WINTER, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_030039e5318348828e2041ed646857a5.setContent(html_748f54e687394e2bae84a719375332c8);
+            
+
+            marker_48ec60f39af74cf8aa49f0fa9448acf2.bindPopup(popup_030039e5318348828e2041ed646857a5);
+
+            
+        
+    
+
+            var marker_3875f08466b94b99a7b7479a003d9059 = L.marker(
+                [42.9147796824665,-78.88839208842151],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_c8d1255bdd654956aae317584f4deefd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3875f08466b94b99a7b7479a003d9059.setIcon(icon_c8d1255bdd654956aae317584f4deefd);
+            
+    
+            var popup_635a2f626bb44b96a2b97215d4df55d0 = L.popup({maxWidth: '300'});
+
+            
+                var html_e243b4fa457946ef99993c624add7f22 = $('<div id="html_e243b4fa457946ef99993c624add7f22" style="width: 100.0%; height: 100.0%;">Address 381 HAMPSHIRE, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_635a2f626bb44b96a2b97215d4df55d0.setContent(html_e243b4fa457946ef99993c624add7f22);
+            
+
+            marker_3875f08466b94b99a7b7479a003d9059.bindPopup(popup_635a2f626bb44b96a2b97215d4df55d0);
+
+            
+        
+    
+
+            var marker_5a56d974b0e84adbae7d914d01a9b37d = L.marker(
+                [42.91159333538831,-78.88749253553128],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_edbd5ad0b9674cb494faf772e758be29 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5a56d974b0e84adbae7d914d01a9b37d.setIcon(icon_edbd5ad0b9674cb494faf772e758be29);
+            
+    
+            var popup_0a1f7a58ff044c9ca10cff4bb778e006 = L.popup({maxWidth: '300'});
+
+            
+                var html_0c37f180649f411180ff3064110d912b = $('<div id="html_0c37f180649f411180ff3064110d912b" style="width: 100.0%; height: 100.0%;">Address 19 SHIELDS, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_0a1f7a58ff044c9ca10cff4bb778e006.setContent(html_0c37f180649f411180ff3064110d912b);
+            
+
+            marker_5a56d974b0e84adbae7d914d01a9b37d.bindPopup(popup_0a1f7a58ff044c9ca10cff4bb778e006);
+
+            
+        
+    
+
+            var marker_11ced22f539547668b95ae99197fbb16 = L.marker(
+                [42.91272819694016,-78.88784579497533],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_9e415b8bd71a49eebad4505144ad84f6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_11ced22f539547668b95ae99197fbb16.setIcon(icon_9e415b8bd71a49eebad4505144ad84f6);
+            
+    
+            var popup_5ff8c341067649edad31ac84d8dd6e0e = L.popup({maxWidth: '300'});
+
+            
+                var html_9fdefb28895a4972b0b6775b7d85299f = $('<div id="html_9fdefb28895a4972b0b6775b7d85299f" style="width: 100.0%; height: 100.0%;">Address 387 MASSACHUSETTS, Property Class  ONE FAMILY DWELLING</div>')[0];
+                popup_5ff8c341067649edad31ac84d8dd6e0e.setContent(html_9fdefb28895a4972b0b6775b7d85299f);
+            
+
+            marker_11ced22f539547668b95ae99197fbb16.bindPopup(popup_5ff8c341067649edad31ac84d8dd6e0e);
+
+            
+        
+    
+
+            var marker_aa12b6bd4227487297faf1da63a3d1f4 = L.marker(
+                [42.91288935735869,-78.88753053654939],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_a102c1d4a04348e79b6761de50b8c9b1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_aa12b6bd4227487297faf1da63a3d1f4.setIcon(icon_a102c1d4a04348e79b6761de50b8c9b1);
+            
+    
+            var popup_431b1168c0f44816aa0d53eec1a2f799 = L.popup({maxWidth: '300'});
+
+            
+                var html_40a491133c5f4b2f8b3c37cccb59398e = $('<div id="html_40a491133c5f4b2f8b3c37cccb59398e" style="width: 100.0%; height: 100.0%;">Address 397 MASSACHUSETTS, Property Class  APARTMENT</div>')[0];
+                popup_431b1168c0f44816aa0d53eec1a2f799.setContent(html_40a491133c5f4b2f8b3c37cccb59398e);
+            
+
+            marker_aa12b6bd4227487297faf1da63a3d1f4.bindPopup(popup_431b1168c0f44816aa0d53eec1a2f799);
+
+            
+        
+    
+
+            var marker_60bb8fdbaaf3490a985bf99fbeaf1a2b = L.marker(
+                [42.912759029821906,-78.88498265713383],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_38480ada61e048beaf9f8f45fb6e1d0d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_60bb8fdbaaf3490a985bf99fbeaf1a2b.setIcon(icon_38480ada61e048beaf9f8f45fb6e1d0d);
+            
+    
+            var popup_ef8d05dcab254e1ebd0bead0dcdf83c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_8d3945c360d44e2cb3ab9f35d2f298fc = $('<div id="html_8d3945c360d44e2cb3ab9f35d2f298fc" style="width: 100.0%; height: 100.0%;">Address 26 NINETEENTH, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_ef8d05dcab254e1ebd0bead0dcdf83c4.setContent(html_8d3945c360d44e2cb3ab9f35d2f298fc);
+            
+
+            marker_60bb8fdbaaf3490a985bf99fbeaf1a2b.bindPopup(popup_ef8d05dcab254e1ebd0bead0dcdf83c4);
+
+            
+        
+    
+
+            var marker_98c9fd9fe2fc4cd6a982d865f7eee5f4 = L.marker(
+                [42.91254157330648,-78.88477930369004],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_528b43eb9e0b4b5aad9776a92e7eb228 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_98c9fd9fe2fc4cd6a982d865f7eee5f4.setIcon(icon_528b43eb9e0b4b5aad9776a92e7eb228);
+            
+    
+            var popup_1214897bf2cc4dc8b17e24372a697b95 = L.popup({maxWidth: '300'});
+
+            
+                var html_adcb5655ef994e0faa8a0d01aa3b6524 = $('<div id="html_adcb5655ef994e0faa8a0d01aa3b6524" style="width: 100.0%; height: 100.0%;">Address 16 NINETEENTH, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_1214897bf2cc4dc8b17e24372a697b95.setContent(html_adcb5655ef994e0faa8a0d01aa3b6524);
+            
+
+            marker_98c9fd9fe2fc4cd6a982d865f7eee5f4.bindPopup(popup_1214897bf2cc4dc8b17e24372a697b95);
+
+            
+        
+    
+
+            var marker_4c16a0e751d445689d014d16310fa196 = L.marker(
+                [42.914362840773336,-78.88461750619247],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_abee5eceb38e481bb0ecdbbc045ad404 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4c16a0e751d445689d014d16310fa196.setIcon(icon_abee5eceb38e481bb0ecdbbc045ad404);
+            
+    
+            var popup_6350568111954b7a87dd09d6a1025c3e = L.popup({maxWidth: '300'});
+
+            
+                var html_93e25fa8d15340e58dd51f10d36ba7ed = $('<div id="html_93e25fa8d15340e58dd51f10d36ba7ed" style="width: 100.0%; height: 100.0%;">Address 493 MASSACHUSETTS, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_6350568111954b7a87dd09d6a1025c3e.setContent(html_93e25fa8d15340e58dd51f10d36ba7ed);
+            
+
+            marker_4c16a0e751d445689d014d16310fa196.bindPopup(popup_6350568111954b7a87dd09d6a1025c3e);
+
+            
+        
+    
+
+            var marker_dc770db268a347e2a330b161bcdcf276 = L.marker(
+                [42.91363294776143,-78.88443367570108],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_87a64bf8869c43318c683fd5f32c4493 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dc770db268a347e2a330b161bcdcf276.setIcon(icon_87a64bf8869c43318c683fd5f32c4493);
+            
+    
+            var popup_ff2685ea951c4649b2176000b84a43f3 = L.popup({maxWidth: '300'});
+
+            
+                var html_e505b001acc045d3a06521c9244112ff = $('<div id="html_e505b001acc045d3a06521c9244112ff" style="width: 100.0%; height: 100.0%;">Address 99 CHENANGO, Property Class  ONE FAMILY DWELLING</div>')[0];
+                popup_ff2685ea951c4649b2176000b84a43f3.setContent(html_e505b001acc045d3a06521c9244112ff);
+            
+
+            marker_dc770db268a347e2a330b161bcdcf276.bindPopup(popup_ff2685ea951c4649b2176000b84a43f3);
+
+            
+        
+    
+
+            var marker_3f2acd4235114fb19e5d8985c57402b0 = L.marker(
+                [42.91323278417447,-78.88684347071474],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_bf348d4805554251ae22a2997280657e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3f2acd4235114fb19e5d8985c57402b0.setIcon(icon_bf348d4805554251ae22a2997280657e);
+            
+    
+            var popup_8df90646d90248d4847145e2bd70e097 = L.popup({maxWidth: '300'});
+
+            
+                var html_53c91a9cb4d243508527cb19d1b9d9d2 = $('<div id="html_53c91a9cb4d243508527cb19d1b9d9d2" style="width: 100.0%; height: 100.0%;">Address 417 MASSACHUSETTS, Property Class  DOWNTOWN ROW TYPE (DETACHED)</div>')[0];
+                popup_8df90646d90248d4847145e2bd70e097.setContent(html_53c91a9cb4d243508527cb19d1b9d9d2);
+            
+
+            marker_3f2acd4235114fb19e5d8985c57402b0.bindPopup(popup_8df90646d90248d4847145e2bd70e097);
+
+            
+        
+    
+
+            var marker_d969add866fe40f283e2120e75eabbec = L.marker(
+                [42.910128121077,-78.89293094682982],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_840739ea5e4f40d6a2d6dfaa283be299 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d969add866fe40f283e2120e75eabbec.setIcon(icon_840739ea5e4f40d6a2d6dfaa283be299);
+            
+    
+            var popup_b20847d623d84640ae325ca999920717 = L.popup({maxWidth: '300'});
+
+            
+                var html_d4536acf4eeb48c18607046be57575b0 = $('<div id="html_d4536acf4eeb48c18607046be57575b0" style="width: 100.0%; height: 100.0%;">Address 217 MASSACHUSETTS, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_b20847d623d84640ae325ca999920717.setContent(html_d4536acf4eeb48c18607046be57575b0);
+            
+
+            marker_d969add866fe40f283e2120e75eabbec.bindPopup(popup_b20847d623d84640ae325ca999920717);
+
+            
+        
+    
+
+            var marker_93505342ac8447b4a065def7cc5e7352 = L.marker(
+                [42.91134999658804,-78.89155784666265],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_8aa62e1818d041ba90dfebbca4085e75 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_93505342ac8447b4a065def7cc5e7352.setIcon(icon_8aa62e1818d041ba90dfebbca4085e75);
+            
+    
+            var popup_8d846acadf494cfd8646e3d7479681b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_5e663154d844426495ac7dee9ac4aed9 = $('<div id="html_5e663154d844426495ac7dee9ac4aed9" style="width: 100.0%; height: 100.0%;">Address 422 FOURTEENTH, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_8d846acadf494cfd8646e3d7479681b4.setContent(html_5e663154d844426495ac7dee9ac4aed9);
+            
+
+            marker_93505342ac8447b4a065def7cc5e7352.bindPopup(popup_8d846acadf494cfd8646e3d7479681b4);
+
+            
+        
+    
+
+            var marker_68ec1201719b4850b86418ba1e0c207b = L.marker(
+                [42.9099280856192,-78.89188804731751],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_29c9719b3f3d4dc5ac01444f9b695731 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_68ec1201719b4850b86418ba1e0c207b.setIcon(icon_29c9719b3f3d4dc5ac01444f9b695731);
+            
+    
+            var popup_061a2304dd7646078f1e7f303a41ce28 = L.popup({maxWidth: '300'});
+
+            
+                var html_010b454dc5be49b79702e41ddb2716c7 = $('<div id="html_010b454dc5be49b79702e41ddb2716c7" style="width: 100.0%; height: 100.0%;">Address 378 NORMAL, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_061a2304dd7646078f1e7f303a41ce28.setContent(html_010b454dc5be49b79702e41ddb2716c7);
+            
+
+            marker_68ec1201719b4850b86418ba1e0c207b.bindPopup(popup_061a2304dd7646078f1e7f303a41ce28);
+
+            
+        
+    
+
+            var marker_0d219db65b814a00a97a9681fae5983d = L.marker(
+                [42.908631671300064,-78.89213816495375],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_aabf46f5c37c4bdbb3429fbf5dadb2db = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0d219db65b814a00a97a9681fae5983d.setIcon(icon_aabf46f5c37c4bdbb3429fbf5dadb2db);
+            
+    
+            var popup_34d702706ac04ea49f27936284664704 = L.popup({maxWidth: '300'});
+
+            
+                var html_e73c6ede3c7b403394314fe2b5b60385 = $('<div id="html_e73c6ede3c7b403394314fe2b5b60385" style="width: 100.0%; height: 100.0%;">Address 429 PLYMOUTH, Property Class  SCHOOL</div>')[0];
+                popup_34d702706ac04ea49f27936284664704.setContent(html_e73c6ede3c7b403394314fe2b5b60385);
+            
+
+            marker_0d219db65b814a00a97a9681fae5983d.bindPopup(popup_34d702706ac04ea49f27936284664704);
+
+            
+        
+    
+
+            var marker_650fdaceceb0412dbdaa9dfc3ed113c7 = L.marker(
+                [42.91056880874808,-78.89207114205789],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_6c08bef4626f49a0b5a5f5810ca97b56 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_650fdaceceb0412dbdaa9dfc3ed113c7.setIcon(icon_6c08bef4626f49a0b5a5f5810ca97b56);
+            
+    
+            var popup_ad527614882d438b86fc0cbf3a884dc3 = L.popup({maxWidth: '300'});
+
+            
+                var html_fc4369b8c5f54d25acc1509567ec0965 = $('<div id="html_fc4369b8c5f54d25acc1509567ec0965" style="width: 100.0%; height: 100.0%;">Address 247 MASSACHUSETTS, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_ad527614882d438b86fc0cbf3a884dc3.setContent(html_fc4369b8c5f54d25acc1509567ec0965);
+            
+
+            marker_650fdaceceb0412dbdaa9dfc3ed113c7.bindPopup(popup_ad527614882d438b86fc0cbf3a884dc3);
+
+            
+        
+    
+
+            var marker_35e7b3c222664c1b8d09cd78b11fe534 = L.marker(
+                [42.91129146587853,-78.88935768806022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_6b88e455b22e458fb793a6240893cb1d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_35e7b3c222664c1b8d09cd78b11fe534.setIcon(icon_6b88e455b22e458fb793a6240893cb1d);
+            
+    
+            var popup_ba174f32afce40ce95c93c246aaa1ed2 = L.popup({maxWidth: '300'});
+
+            
+                var html_6353380ac92a428caf36b0035e00c5fc = $('<div id="html_6353380ac92a428caf36b0035e00c5fc" style="width: 100.0%; height: 100.0%;">Address 608 UTICA WEST, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_ba174f32afce40ce95c93c246aaa1ed2.setContent(html_6353380ac92a428caf36b0035e00c5fc);
+            
+
+            marker_35e7b3c222664c1b8d09cd78b11fe534.bindPopup(popup_ba174f32afce40ce95c93c246aaa1ed2);
+
+            
+        
+    
+
+            var marker_fad32b33aa744a8b9ef6369c600f2d5b = L.marker(
+                [42.91126909575775,-78.88772025405805],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_ab322a7d437d4d23882f7da6f5afac5e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fad32b33aa744a8b9ef6369c600f2d5b.setIcon(icon_ab322a7d437d4d23882f7da6f5afac5e);
+            
+    
+            var popup_7ec4345d70bf4d82be3f2cd0fc19dc78 = L.popup({maxWidth: '300'});
+
+            
+                var html_781b729e830a4c9291e634de5b50119e = $('<div id="html_781b729e830a4c9291e634de5b50119e" style="width: 100.0%; height: 100.0%;">Address 566 UTICA WEST, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_7ec4345d70bf4d82be3f2cd0fc19dc78.setContent(html_781b729e830a4c9291e634de5b50119e);
+            
+
+            marker_fad32b33aa744a8b9ef6369c600f2d5b.bindPopup(popup_7ec4345d70bf4d82be3f2cd0fc19dc78);
+
+            
+        
+    
+
+            var marker_f9bf376329324b5985bc7f2e657c8a8e = L.marker(
+                [42.91126910321802,-78.88756443649525],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_6d81c5f620174c328106819db1451080 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f9bf376329324b5985bc7f2e657c8a8e.setIcon(icon_6d81c5f620174c328106819db1451080);
+            
+    
+            var popup_d6a25b2148d34acbb3f375b4319c126d = L.popup({maxWidth: '300'});
+
+            
+                var html_bfc1bbf8a39c447c94102abae97b0878 = $('<div id="html_bfc1bbf8a39c447c94102abae97b0878" style="width: 100.0%; height: 100.0%;">Address 562 UTICA WEST, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_d6a25b2148d34acbb3f375b4319c126d.setContent(html_bfc1bbf8a39c447c94102abae97b0878);
+            
+
+            marker_f9bf376329324b5985bc7f2e657c8a8e.bindPopup(popup_d6a25b2148d34acbb3f375b4319c126d);
+
+            
+        
+    
+
+            var marker_af8228259b4a437b9dfe2212135a3400 = L.marker(
+                [42.908846161748436,-78.88902468264355],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_7aa7393be7e1441d87f18ea80a23af6d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_af8228259b4a437b9dfe2212135a3400.setIcon(icon_7aa7393be7e1441d87f18ea80a23af6d);
+            
+    
+            var popup_b9f6b0ad48f6419a85ecd6f602f3505f = L.popup({maxWidth: '300'});
+
+            
+                var html_6ecfa1d9fb2044d9ae0fe65288239530 = $('<div id="html_6ecfa1d9fb2044d9ae0fe65288239530" style="width: 100.0%; height: 100.0%;">Address 309 FOURTEENTH, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_b9f6b0ad48f6419a85ecd6f602f3505f.setContent(html_6ecfa1d9fb2044d9ae0fe65288239530);
+            
+
+            marker_af8228259b4a437b9dfe2212135a3400.bindPopup(popup_b9f6b0ad48f6419a85ecd6f602f3505f);
+
+            
+        
+    
+
+            var marker_1aa80a8a043642efac8e84826b6564a6 = L.marker(
+                [42.9109682691436,-78.88670976394803],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_50fddb8941fd4a25bf16b1a447b18e40 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1aa80a8a043642efac8e84826b6564a6.setIcon(icon_50fddb8941fd4a25bf16b1a447b18e40);
+            
+    
+            var popup_c21082de1ca9497bb1d26ac5fa51fa35 = L.popup({maxWidth: '300'});
+
+            
+                var html_95ad3c5d0fb04ae99bf1a7aaef0815ef = $('<div id="html_95ad3c5d0fb04ae99bf1a7aaef0815ef" style="width: 100.0%; height: 100.0%;">Address 401 RHODE ISLAND, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_c21082de1ca9497bb1d26ac5fa51fa35.setContent(html_95ad3c5d0fb04ae99bf1a7aaef0815ef);
+            
+
+            marker_1aa80a8a043642efac8e84826b6564a6.bindPopup(popup_c21082de1ca9497bb1d26ac5fa51fa35);
+
+            
+        
+    
+
+            var marker_a04edb746ccb42bc95be99c2169306c7 = L.marker(
+                [42.906606061097776,-78.88877315734406],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_7276eeaf5a1a4376a0b942e8e2c58570 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a04edb746ccb42bc95be99c2169306c7.setIcon(icon_7276eeaf5a1a4376a0b942e8e2c58570);
+            
+    
+            var popup_0c554638099e497eaadf103d675a1273 = L.popup({maxWidth: '300'});
+
+            
+                var html_e0c21dd2f1284e4290e675d0941368ca = $('<div id="html_e0c21dd2f1284e4290e675d0941368ca" style="width: 100.0%; height: 100.0%;">Address 236 NORMAL, Property Class  TWO FAMILY DWELLING</div>')[0];
+                popup_0c554638099e497eaadf103d675a1273.setContent(html_e0c21dd2f1284e4290e675d0941368ca);
+            
+
+            marker_a04edb746ccb42bc95be99c2169306c7.bindPopup(popup_0c554638099e497eaadf103d675a1273);
+
+            
+        
+    
+
+            var marker_239c441496414167a33ea56338b41eaa = L.marker(
+                [42.90656001794232,-78.88872871567786],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_021d2f4838b048d380ead52fe8e4d769);
+            
+    
+
+                var icon_0011a24d52544ca6b289cfe118beb53f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_239c441496414167a33ea56338b41eaa.setIcon(icon_0011a24d52544ca6b289cfe118beb53f);
+            
+    
+            var popup_9ecddf5a855f49f9b46c7b3cf1fa322f = L.popup({maxWidth: '300'});
+
+            
+                var html_966d68ff1d264573abe1e5973bf6e8b3 = $('<div id="html_966d68ff1d264573abe1e5973bf6e8b3" style="width: 100.0%; height: 100.0%;">Address 234 NORMAL, Property Class  RESIDENTIAL VACANT LAND</div>')[0];
+                popup_9ecddf5a855f49f9b46c7b3cf1fa322f.setContent(html_966d68ff1d264573abe1e5973bf6e8b3);
+            
+
+            marker_239c441496414167a33ea56338b41eaa.bindPopup(popup_9ecddf5a855f49f9b46c7b3cf1fa322f);
+
+            
+        
+    
+            var layer_control_852d8933a7d04ec4ae33976cc652a882 = {
+                base_layers : { "openstreetmap" : tile_layer_91e7a83a26e54a70a5de5d3f00becbb7, },
+                overlays : { "APARTMENT" : feature_group_254be1356fac4eb0b68b984824d5e0f9,"TWO FAMILY DWELLING" : feature_group_85acc13758fb4310a0ad64244425352c,"ONE FAMILY DWELLING" : feature_group_39c4fa7d33944931820170d24a90c66b,"RESIDENTIAL LAND WITH SMALL IMPROVEMENTS" : feature_group_c204122a45254eb3bc1e3e3c83060a0b,"RESIDENTIAL VACANT LAND" : feature_group_ce78efc5d32840bcb3b9a03e9662bbc2,"COMMERCIAL VACANT LAND" : feature_group_73fae67143d34a0cbbc64421b39775bb,"PUSH Locations" : feature_group_021d2f4838b048d380ead52fe8e4d769, }
+                };
+            L.control.layers(
+                layer_control_852d8933a7d04ec4ae33976cc652a882.base_layers,
+                layer_control_852d8933a7d04ec4ae33976cc652a882.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_68873191a62540929d01458c8c97e406);
+        
+</script>
